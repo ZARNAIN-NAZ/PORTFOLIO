@@ -2,41 +2,45 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my awesome portfolio </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@100&display=swap"
-        rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,500&family=Lato&family=Questrial&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/style11.css" />
+
 </head>
 
 <body>
     <div class="site-main-wrapper">
-        <button class="hamberger">
-            <img src="./images/hamberger.svg" alt="">
-        </button>
+
+        <button class="hamberger"><img src="/images/menu-new.png" alt=""></button>
+
         <div class="mobile-nav">
-            <button class="times " ><img src="./images/times.svg" alt=""></button>
+            <button class="times"><img src="/images/times.png" alt=""></button>
+            <div class="menu-logo">
+                <img src="images/menu-logo-2.png" alt="">
+            </div>
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a id="h-home" href="#">Home</a></li>
+                <li><a id="h-about" href="#about">About</a></li>
+                <li><a id="h-services" href="#services">Services</a></li>
+                <li><a id="h-work" href="#work">Work</a></li>
+                <li><a id="h-blog" href="#blog">Blog</a></li>
+
             </ul>
         </div>
         <header>
             <div class="container">
-                <nav id="main-nav" class="flex items-center justify-between">
-                    <div class="left flex items-center">
+                <nav id="main-nav" class="flex item-center  justify-between">
+                    <div class="left flex item-center">
                         <div class="branding">
                             <img src="./images/logo.svg" alt="">
                         </div>
@@ -46,360 +50,346 @@
                         <a href="#work">Work</a>
                         <a href="#blog">Blog</a>
                     </div>
-    
-                    <div class="right">
+
+                    <div class="right ">
                         <button class="btn btn-primary">Contact</button>
                     </div>
-    
+
                 </nav>
-                <div class="hero flex items-center justify-between">
-                    <div class="left flex-1 flex justify-center">
-                        <img src="./images/man.png" alt="">
+                <div class="hero flex  item-center justify-between">
+                    <div class="left flex flex-1 justify-center ">
+                        <img src="images/man.png" alt="img">
                     </div>
-                    <div class="right flex-1">
-                        <h6>Johnathan Vics</h6>
-                        <h1>I'm a Creative <span>Designer</span></h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores unde hic inventore harum
-                            corrupti praesentium sunt obcaecati. Velit soluta voluptates veritatis, omnis aliquid
-                            recusandae, assumenda vel doloremque quas, voluptatibus corrupti nihil sit. Veniam eos,
-                            similique, omnis corporis velit quibusdam sapiente delectus eaque quis incidunt repellendus eum
-                            dolorum facere minima reiciendis?</p>
-                        <div>
-                            <button class="btn btn-secondary">DOWNLOAD CV</button>
+                    <div class="right flex-1 ">
+                        <h6> Zarnain Naz</h6>
+                        <h1>I'm a Creative <br> <span> Programmer</span></h1>
+                        <p>I am currently learning front-end development by doing projects. I am also
+                            learning Blockchain Development at Sir Syed University Karachi. I am
+                            passionate to learn new technologies to keep up-skilled in the emerging era.
+                        </p>
+                        <div class="right-btn-header">
+                            <button class="btn sec-btn">Download CV</button>
                         </div>
-    
                     </div>
-    
                 </div>
             </div>
         </header>
-        <section id="about" class="about">
-            <div class="container flex items-center about inner-wrap">
-                <div class="flex-1 right">
-                    <img class="about-me-img" src="./images/man-2.png" alt="">
+
+
+
+        <section id="about" class="about ">
+            <div class=" container flex item-center  about-inner-wrap ">
+                <div class=" about-left flex-1 ">
+                    <img class="about-img " src="images/man-2.png" alt="img">
                 </div>
-                <div class="flex-1">
-                    <h1>About <span>Me</span></h1>
-                    <h3>Hello! i'm Johnathan Vics</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos minus laudantium qui eius delectus
-                        consequuntur atque ab eos, culpa consectetur at omnis quisquam sed quidem, maxime sit ex! Maiores
-                        ipsa nulla, ducimus quasi optio assumenda expedita. Vitae, fugiat sed. Nihil exercitationem
-                        perferendis laudantium voluptatum illo magnam, est ducimus? Provident consequuntur atque vitae nulla
-                        aperiam culpa dolore sequi illum dolorem repellat? Nesciunt, deserunt accusantium. Quod nihil quo
-                        ipsam earum reiciendis numquam aliquam veniam! Tempora itaque rem aperiam est quas, consequuntur
-                        saepe!</p>
+                <div class="about-right flex-1  right">
+                    <h1> About <span>Me</span></h1>
+                    <h3>Hello! I’m Zarnain Naz.</h3>
+                    <p>I am currently learning front-end development by doing projects. I am also
+
+                        learning Blockchain Development at Sir Syed University Karachi. I am
+
+                        passionate to learn new technologies to keep up-skilled in the emerging era.</p>
                     <div class="social">
-                        <a href="#"> <img src="./images/website.svg" alt=""></a>
-                        <a href="#"> <img src="./images/facebook.svg" alt=""></a>
-                        <a href="#"> <img src="./images/twitter.svg" alt=""></a>
-                        <a href="#"> <img src="./images/pintrest.svg" alt=""></a>
-                        <a href="#"> <img src="./images/instagram.svg" alt=""></a>
-    
+                        <a href="https://github.com/ZARNAIN-NAZ"><img src="images/github22.png" alt=""></a>
+                        <a href=""><img src="images/linkdin22.png" alt=""></a>
+                        <a href=""><img src="images/web22.png" alt=""></a>
+                        <a href=""><img src="images/twitter.png" alt=""></a>
+                        <a href=""><img src="images/instagram22.png" alt=""></a>
+                        <a href=""><img src="images/facebook22.png" alt=""></a>
                     </div>
                 </div>
-    
             </div>
         </section>
-        <section id="services" class="services">
-            <div class="container">
-    
-                <h1 class="section-heading"> <span>Our</span> Services</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+
+
+
+        <section id="services" class="services ">
+            <div class="container ">
+                <h1 class="section-heading"><span>Our</span> Services</h1>
+                <p>Me and my team you provide high standard clean website for your business solutions.</p>
+
                 <div class="card-wrapper">
                     <div class="card">
-                        <img src="./images/brush.svg" alt="">
-                        <h2>Graphic Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quam porro sequi deleniti nostrum
-                            esse, adipisci rem explicabo nemo ex eius quaerat mollitia aut officiis. Recusandae similique,
-                            provident natus cupiditate dolor id? Asperiores aspernatur autem quia incidunt. Dolore,
-                            blanditiis enim.</p>
-    
+                        <img src="images/software-eng.png" alt="">
+                        <h2>Software Engineer</h2>
+                        <p> I will develop software programs for you to automate business tasks efficiently.
+                        </p>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/web-dev.png" alt="">
+                        <h2>Web Developer</h2>
+                        <p>I will provide the awesome website for you with full customizations and responsiveness.
+                        </p>
+
                     </div>
                     <div class="card">
-                        <img src="./images/code.svg" alt="">
-                        <h2>Web Devolopment</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quam porro sequi deleniti nostrum
-                            esse, adipisci rem explicabo nemo ex eius quaerat mollitia aut officiis. Recusandae similique,
-                            provident natus cupiditate dolor id? Asperiores aspernatur autem quia incidunt. Dolore,
-                            blanditiis enim.</p>
-    
+                        <img src="images/web-designer.png" alt="">
+                        <h2>Web Designer</h2>
+                        <p>I will provide you with attractive web design for you.
+                        </p>
+
                     </div>
-    
                     <div class="card">
-                        <img src="./images/bag.svg" alt="">
-                        <h2> Media Marketing </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quam porro sequi deleniti nostrum
-                            esse, adipisci rem explicabo nemo ex eius quaerat mollitia aut officiis. Recusandae similique,
-                            provident natus cupiditate dolor id? Asperiores aspernatur autem quia incidunt. Dolore,
-                            blanditiis enim.</p>
-    
+                        <img src="images/project-management.png" alt="">
+                        <h2>Project Management</h2>
+                        <p>I will manage your project from beginning to completion.
+                        </p>
+
                     </div>
-    
                     <div class="card">
-                        <img src="./images/desktop.svg" alt="">
-                        <h2>Web Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quam porro sequi deleniti nostrum
-                            esse, adipisci rem explicabo nemo ex eius quaerat mollitia aut officiis. Recusandae similique,
-                            provident natus cupiditate dolor id? Asperiores aspernatur autem quia incidunt. Dolore,
-                            blanditiis enim.</p>
-    
+                        <img src="images/pwa.png" alt="">
+                        <h2>Progressive Web App</h2>
+                        <p>I will convert your website into a mobile and desktop application.
+                        </p>
+
                     </div>
-    
+
                     <div class="card">
-                        <img src="./images/media.svg" alt="">
-                        <h2>Graphic Media Graphic</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quam porro sequi deleniti nostrum
-                            esse, adipisci rem explicabo nemo ex eius quaerat mollitia aut officiis. Recusandae similique,
-                            provident natus cupiditate dolor id? Asperiores aspernatur autem quia incidunt. Dolore,
-                            blanditiis enim.</p>
-    
-                    </div>
-    
-                    <div class="card">
-                        <img src="./images/phone.svg" alt="">
-                        <h2>Apps</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quam porro sequi deleniti nostrum
-                            esse, adipisci rem explicabo nemo ex eius quaerat mollitia aut officiis. Recusandae similique,
-                            provident natus cupiditate dolor id? Asperiores aspernatur autem quia incidunt. Dolore,
-                            blanditiis enim.</p>
-    
+                        <img src="images/solidity.png" alt="">
+                        <h2>Solidity</h2>
+                        <p>I will write smart contracts on Ethereum Virtual Machine (EVM) for you.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-    
+
+
+
         <section class="freelancer">
-            <h1>I AM AVAILABLE FOR FREELANCER</h1>
-            <p>we provide high standard clean website for your business solution</p>
-            <button class="btn  btn-primary">Download CV </button>
+            <h1>I Am Available For Freelancer.</h1>
+            <p>We provide high standard clean website for your business solutions</p>
+            <button class="btn btn-primary">Download CV</button>
         </section>
-    
+        <!-- -->
         <section class="reviews">
             <div class="container">
                 <h1 class="section-heading"> <span>Our</span> Client</h1>
-                <p>we provide high standard clean website for your business solution</p>
+                <p>We provide high standard clean website for your business solution</p>
                 <div class="slider">
                     <div class="slide">
-                        <img src="./images/lady.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatibus aliquid iure
-                            fugiat, quibusdam esse amet saepe sint quo labore consequuntur assumenda praesentium a magnam.
+                        <img class="client-new" src="./images/client-pic-new.png" alt="">
+                        <p>"It's always a pleasure to work with Will and his team. They are personable, responsive, and
+                            results-oriented!""
                         </p>
-                        <span> -john Doel , company ABC</span>
+                        <span> -Jhon  </span>
                     </div>
                     <div class="slide">
-                        <img src="./images/lady.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
+                        <img class="client-new" src="./images/client-pic-new.png" alt="">
+                        <p>"Always available to answer any questions. Very knowledgeable about the services they provide. Would recommend to anyone!"</p>
+                        <span>-Jason</span>
                     </div>
                     <div class="slide">
-                        <img src="./images/lady.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
+                        <img class="client-new" src="./images/client-pic-new.png" alt="">
+                        <p>"Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised."</p>
+                        <span>-Marcus</span>
                     </div>
-                    <div class="slide">
-                        <img src="./images/lady.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
+                    <div  class="slide">
+                        <img class="client-new" src="./images/client-pic-new.png" alt="">
+                        <p>"Great results. Enjoyable to work with, and most importantly, enabled us to have the presence on the web we needed to conduct business in today's market."</p>
+                        <span>-Jaden</span>
                     </div>
                 </div>
                 <div class="slider-dots"></div>
             </div>
         </section>
-    
+
+
+
+
+
         <section id="work" class="work">
             <div class="container">
-                <h1 class="section-heading"><span>Our</span>Works</h1>
-                <p> we provide highstandard clean website for your bussiness solutions. </p>
+                <h1 class="section-heading"><span>Our</span> Work</h1>
+                <p>We provide high standar clean website for your business solutions</p>
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="overlay">
                             <span>Category</span>
-                            <a href="#"> Web Devolopment</a>
+                            <a href="#">Web Developement</a>
                         </div>
-                        <img src="./images/ph-1.png" alt="">
-    
-                    </div>
-    
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#"> Web Devolopment</a>
-                        </div>
-                        <img src="./images/ph-1.png" alt="">
-    
+                        <img src="images/article-ph-1.png" alt="">
+
                     </div>
                     <div class="card">
                         <div class="overlay">
                             <span>Category</span>
-                            <a href="#"> Web Devolopment</a>
+                            <a href="#">Web Developement</a>
                         </div>
-                        <img src="./images/ph-1.png" alt="">
-    
+                        <img src="images/article-ph-1.png" alt="">
+
                     </div>
                     <div class="card">
                         <div class="overlay">
                             <span>Category</span>
-                            <a href="#"> Web Devolopment</a>
+                            <a href="#">Web Developement</a>
                         </div>
-                        <img src="./images/ph-1.png" alt="">
-    
+                        <img src="images/article-ph-1.png" alt="">
+
                     </div>
                     <div class="card">
                         <div class="overlay">
                             <span>Category</span>
-                            <a href="#"> Web Devolopment</a>
+                            <a href="#">Web Developement</a>
                         </div>
-                        <img src="./images/ph-1.png" alt="">
-    
+                        <img src="images/article-ph-1.png" alt="">
+
                     </div>
                     <div class="card">
                         <div class="overlay">
                             <span>Category</span>
-                            <a href="#"> Web Devolopment</a>
+                            <a href="#">Web Developement</a>
                         </div>
-                        <img src="./images/ph-1.png" alt="">
-    
+                        <img src="images/article-ph-1.png" alt="">
+
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web Developement</a>
+                        </div>
+                        <img src="images/article-ph-1.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
+
+
+
         <section id="blog" class="blog">
             <div class="container">
-                <h1 class="section-heading"><span>Our</span>Blog</h1>
-                <p>we provide highstandard clean website for your bussiness solutions.</p>
+                <h1 class="section-heading"><span>Our</span> Blog</h1>
+                <p>We provide high standar clean website for your business solutions
+                </p>
                 <div class="card-wrapper">
                     <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./images/article-ph-1.png" alt="">
-    
-                        </div>
+                        <img class="image-wrapper" src="images/article-ph-1.png" alt="">
                         <div class="card-content">
                             <a href="">
-                                <h1> Occusamus et iusto odio</h1>
+                                <h1>Occusamus et iusto odio</h1>
                             </a>
-                            <span>May 12, 2019</span>
+                            <span> Aug 6, 2022</span>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                                 nulla
                                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                 deserunt
                                 mollit anim id est laborum.</p>
-                            <a href="#">Raed More</a>
+                            <a class="read-more" href="#">Read More</a>
                         </div>
                     </div>
-    
                     <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./images/article-ph-1.png" alt="">
-    
-                        </div>
+                        <img class="image-wrapper" src="images/article-ph-1.png" alt="">
                         <div class="card-content">
                             <a href="">
-                                <h1> Occusamus et iusto odio</h1>
+                                <h1>Occusamus et iusto odio</h1>
                             </a>
-                            <span>May 12, 2019</span>
+                            <span> Aug 6, 2022</span>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                                 nulla
                                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                 deserunt
                                 mollit anim id est laborum.</p>
-                            <a href="#">Raed More</a>
+                            <a class="read-more" href="#">Read More</a>
                         </div>
                     </div>
-    
                     <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./images/article-ph-1.png" alt="">
-    
-                        </div>
+                        <img class="image-wrapper" src="images/article-ph-1.png" alt="">
                         <div class="card-content">
                             <a href="">
-                                <h1> Occusamus et iusto odio</h1>
+                                <h1>Occusamus et iusto odio</h1>
                             </a>
-                            <span>May 12, 2019</span>
+                            <span> Aug 6, 2022</span>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                                 nulla
                                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                 deserunt
                                 mollit anim id est laborum.</p>
-                            <a href="#">Raed More</a>
+                            <a class="read-more" href="#">Read More</a>
                         </div>
                     </div>
-    
                 </div>
             </div>
-    
         </section>
-        <section class="contact">
-            <div class="container">
-    
+
+
+
+        <section id="contact" class="contact">
+
+            <div class="container asdf ">
                 <h1 class="section-heading">Contact <span>Us</span></h1>
-                <p>we provide highstandard clean website for your bussiness solutions.</p>
-                <div class="card-wrapper">
+                <p>
+                    We provide high standar clean website for your business solutions
+                </p>
+                <div class="card-wrapper-c">
                     <div class="card">
-                        <img src="./images/phone-2.svg" alt="">
+                        <img src="images/contact-new.png" alt="">
                         <h1>Call Us On</h1>
-                        <h6>03182090664</h6>
+                        <h6>+92 121 11111</h6>
                     </div>
-    
                     <div class="card">
-                        <img src="./images/msg.svg" alt="">
-                        <h1>Email us at </h1>
-                        <h6>zarnainabid004@gmail.com</h6>
+                        <img src="images/email-new.png" alt="">
+                        <h1>Email Us At</h1>
+                        <h6>codewithdawood@gmail.com</h6>
                     </div>
-    
-                    <div class="card">
-                        <img src="./images/map.svg" alt="">
+                    <div class="card ofice-icon">
+                        <img src="images/office-new.png" alt="">
                         <h1>Visit Office</h1>
-                        <h6>House No 67 ,Block 10 Street No 7 Gulshan-Iqbal ,Karachi.</h6>
+                        <h6>Microlab Solutions, Karachi Pakistan</h6>
                     </div>
+
                 </div>
-    
-                <form action=" ">
+                <form class="abc" action="">
                     <div class="input-wrap">
-                        <input type="text" placeholder="Your Name*">
-                        <input type="email" placeholder="Your Email*">
-    
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
                     </div>
-                    <div class="input-wrap-2">
-                        <input type="text" placeholder="Your Subject...">
+
+                    <div class="input-wrap2">
+                        <input type="text" placeholder="Your Subject..... *">
                         <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
                     </div>
-                    <div class="btn-wrapper">
-                        <button class="btn btn-primary">Send Message</button>
+                    <div class="   btn-wrapper">
+                        <button class="btn btn-primary"> Send Message </button>
                     </div>
                 </form>
             </div>
-    
         </section>
-    
+
+
+
+
         <footer>
-            <img class="footer-logo" src="./images/logo-2.svg" alt="">
-            <div class="footer-socials">
-                <a href="#"> <img src="./images/website.svg" alt=""></a>
-                <a href="#"> <img src="./images/facebook.svg" alt=""></a>
-                <a href="#"><img src="./images/twitter.svg" alt=""></a>
-                <a href="#"> <img src="./images/pintrest.svg" alt=""></a>
-                <a href="#"> <img src="./images/instagram.svg" alt=""></a>
+            <img class="footer-logo" src="images/logo-2.svg" alt="">
+            <div class="footer-social">
+                <a href=""><img src="images/github22.png" alt=""></a>
+                <a href=""><img src="images/linkdin22.png" alt=""></a>
+                <a href=""><img src="images/web22.png" alt=""></a>
+                <a href=""><img src="images/twitter.png" alt=""></a>
+                <a href=""><img src="images/instagram22.png" alt=""></a>
+                <a href=""><img src="images/facebook22.png" alt=""></a>
             </div>
             <div class="copyright">
-                Copyright 2020 © Zarnain Naz.All Right Reserved.
+                Copyright 2022 © Code With Dawood
             </div>
         </footer>
-        
     </div>
-   
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
+
+
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
 
-    <script src="./js/app.js"></script>
+
 </body>
 
 </html>
