@@ -745,6 +745,14 @@ section.contact .card-wrapper-c .card img {
     .section-heading+p {
         margin-bottom: 5rem;
     }
+    footer .footer-social a img{
+        height: 28px;
+        width: 28px;
+    }
+    footer {
+      
+        padding: 2.2rem;
+    }
 
 }
 
